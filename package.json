@@ -2,14 +2,18 @@
   "name": "estudo-04-11-2018",
   "version": "1.0.0",
   "description": "Projeto para estudar SASS, CSS, ITCSS e design responsivo",
+  "homepage": "https://r3dson.github.io/estudo-04-11-2018",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "predeploy": "rimraf dist && parcel build src/index.html"
   },
   "keywords": [],
   "author": "Edson Luiz Ribeiro Rodrigues",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^4.1.7",
+    "gh-pages": "^2.0.1",
     "sass": "^1.14.3"
   }
 }
