@@ -1,0 +1,15 @@
+{
+  "name": "estudo-04-11-2018",
+  "version": "1.0.0",
+  "description": "Projeto para estudar SASS, CSS, ITCSS e design responsivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Edson Luiz Ribeiro Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.14.3"
+  }
+}
